@@ -1,0 +1,95 @@
+# ####################################################################
+# 1. Závislosti a cache (Node.js)
+# ####################################################################
+node_modules/
+/jspm_packages/
+.npm
+.eslintcache
+.parcel-cache
+.turbo
+.vercel
+/out
+/docs/.vitepress/cache
+/docs/.vitepress/.temp
+
+# ####################################################################
+# 2. Build výstupy (Vite & Web)
+# ####################################################################
+dist/
+dist-ssr/
+*.local
+build/
+bin/
+
+# Mobilní bundly a nastroje
+*.jsbundle
+.watchmanconfig
+.buckd/
+
+# ####################################################################
+# 4. Logy a debugování
+# ####################################################################
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+*.cpuprofile
+
+# ####################################################################
+# 5. Prostředí a tajné klíče (NIKDY NECOMMITOVAT)
+# ####################################################################
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+*.pem
+
+# ####################################################################
+# 6. Testování a pokrytí
+# ####################################################################
+coverage/
+*.lcov
+
+# ####################################################################
+# 7. Editory a IDE (VS Code, WebStorm, atd.)
+# ####################################################################
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+!.vscode/*.code-snippets
+
+# Local History for Visual Studio Code
+.history/
+
+# Built Visual Studio Code Extensions
+*.vsix
+
+### VisualStudioCode Patch ###
+# Ignore all local history of files
+.history
+.ionide
+.idea/
+*.suo
+*.ntvsca*
+*.njsproj
+*.sln
+*.sw?
+.tsbuildinfo
+
+# ####################################################################
+# 8. Systémové soubory
+# ####################################################################
+.DS_*
+*.log
+logs
+**/*.backup.*
+**/*.back.*
+
+node_modules
+bower_components
